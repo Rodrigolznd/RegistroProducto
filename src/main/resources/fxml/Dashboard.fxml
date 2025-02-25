@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<!-- Define la estructura de la interfaz de usuario con un AnchorPane como contenedor principal -->
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.minimizing.system.controllers.DashboardController">
+    
+    <!-- Define un botón con el id 'myButton' y un texto 'Click Me' -->
+    <!-- El evento 'onAction' invoca el método 'onButtonClick' del controlador cuando el botón es presionado -->
+    <Button fx:id="myButton" text="Click Me" onAction="#onButtonClick" layoutX="100" layoutY="100"/>
+    
+</AnchorPane>
